@@ -1,0 +1,269 @@
+    1  njbujbujbub
+    2  sudo
+    3  sudo -i
+    4  sudo apt update 
+    5  sudo apt upgrade
+    6  sudo apt full-upgrade 
+    7  sudo apt dist-upgrade 
+    8  history
+    9  sudo reboot
+   10  sudo apt update
+   11  sudo apt install git vim kolourpaint 
+   12  sudo reboot
+   13  sudo vim /etc/dafault/keyboard
+   14  sudo poweroff 
+   15  sudo apt upgrade
+   16  sudo apt update
+   17  pwd
+   18  ls
+   19  ls -l
+   20  ls -lh
+   21  ls -l
+   22  ls -lha
+   23  cd
+   24  cd /
+   25  pwd
+   26  ls
+   27  ls -l
+   28  ls -lh
+   29  ls -lha
+   30  bash exit
+   31  exit
+   32  cd /
+   33  cd ~
+   34  pwd
+   35  cd -
+   36  l -lha
+   37  cd -
+   38  cd ~
+   39  ls -lh
+   40  mkdir
+   41  mkdir --help
+   42  man mkdir
+   43  mkdir SENAC
+   44  l -lh
+   45  mkdir senac
+   46  l -lh
+   47  cd SENAC/
+   48  pwd
+   49  cd / 
+   50  cd ~
+   51  cd SENAC/
+   52  pwd
+   53  mkdir -v TAT PEN CAS
+   54  cd TAT/
+   55  pwd
+   56  mkdir -v TEI TST
+   57  cd TEI/
+   58  pwd
+   59  cd ..
+   60  cd TAT/
+   61  cd ..
+   62  cd ~/SENAC/TAT/TEI/
+   63  cd ../../PEN/
+   64  mkdir -v TEI TST
+   65  cd TEI/
+   66  ls -lha
+   67  echo
+   68  echo SENAC Tatuapé
+   69  echo "SENAC Tatuapé"
+   70  echo "SENAC Tatuapé Técnico em Informática"
+   71  echo "SENAC Tatuapé Técnico em Informática" > teste.txt
+   72  ls
+   73  history
+   74  cd teste.txt
+   75  ls
+   76  ls -lh
+   77  ls -lha
+   78  echo "Marcos Rocha Silva" > teste01.txt
+   79  ls
+   80  ls -lh
+   81  touch
+   82  echo > senac.txt
+   83  ls -lh
+   84  touch sesc.txt
+   85  ls -lh
+   86  touch sesc.txt
+   87  ls -lh
+   88  echo Tatuapé > senac.txt 
+   89  ls -lh
+   90  echo Penha > senac.txt 
+   91  ls -lh
+   92  pwd
+   93  git
+   94  git clone https://github.com/MarcosRochaS/Linux
+   95  ls
+   96  cd Linux/
+   97  ls
+   98  ls -lha
+   99  cd .git/
+  100  ls
+  101  ls -lha
+  102  cd..
+  103  cd ..
+  104  ls
+  105  git config
+  106  git config --global user.name "Marcos Rocha"
+  107  git config --global user.email marcos.rochaigsm@gmail.com
+  108  git config --list
+  109  sudo init 0
+  110  history
+  111  cd SENAC/
+  112  pwd
+  113  ls
+  114  sudo apt update
+  115  sudo apt upgrade
+  116  exit
+  117  ls -lh
+  118  cd TAT/
+  119  TEI/
+  120  touch senac.txt senai.txt sesc.txt
+  121  ls -lh
+  122  history
+  123  echo "Tatuapé" > senac.txt 
+  124  ls -lh
+  125  echo "Guarulhos" > senai.txt 
+  126  echo "Santana" > sesc.txt
+  127  ls -lh
+  128  cat senai.txt
+  129  cat -n senai.txt
+  130  echo "Vila Maria" > senai.txt
+  131  cat -n senai.txt
+  132  echo "Itaquera" >> senai.txt
+  133  cat -n senai.txt
+  134  echo "Brás" >> senai.txt
+  135  cat -n senai.txt
+  136  tac senai.txt
+  137  cat -n senai.txt
+  138  cat -n senai.txt | tac
+  139  tail /etc/services 
+  140  head /etc/services 
+  141  cat - n /etc/services
+  142  cat -n /etc/services
+  143  tail -n3 /etc/services 
+  144  head -n3 /etc/services 
+  145  cat tail -n3 /etc/services 
+  146  history
+  147  tail cat -n3 /etc/services 
+  148  head cat -n3 /etc/services 
+  149  history
+  150  cat tail -n3 /e
+  151  tail cat -n3 /etc/services 
+  152  cat -n /etc/services | tail -n3
+  153  cat -n /etc/services | head -n3
+  154  cat -n /etc/services | head -n100 | tail -n200
+  155  cat -n /etc/services | tail -n200 | head -n100
+  156  cat -n /etc/services | tail -n201 | head -n99
+  157  cat -n /etc/services | head -n200 | tail -n101
+  158  cat -n /etc/services | tail -n200 | head -n101
+  159  cat -n /etc/services | head -n200 | tail -n101 | less
+  160  cd SENAC/TAT/TEI
+  161  cat -n /etc/services | head -n200 | tail -n101 > vava.txt
+  162  ls -lh
+  163  cat -n vava.txt 
+  164  less vava.txt 
+  165  cp vava.txt ramos.txt
+  166  ls -lh
+  167  cp -v ramos.txt senai.txt
+  168  ls -lh
+  169  ls -lh ../
+  170  ls -lh ../../
+  171  cp vava.txt ramos.txt ../../PEN/
+  172  ls -lh ../../PEN/
+  173  mkdir -v bkp
+  174  ls -lh
+  175  cp -v *.txt bkp/
+  176  ls -lh
+  177  mv -v vava.txt vaamonde.md
+  178  ls -lh
+  179  mv -v ramos.txt ../TST
+  180  ls -lh ../TST/
+  181  mv -v ramos.txt ../TST/leandro.md
+  182  cd ..
+  183  cd TST/
+  184  mv -v ramos.txt  leandro.md
+  185  cd ..
+  186  cd TEI/
+  187  ls -lh
+  188  rm -v sesc.txt 
+  189  ls -lh
+  190  cd ..
+  191  rm -v TEI/
+  192  rm -Rv TST/
+  193  rm -Rfv TST/
+  194  exit
+  195  ls
+  196  cd Linux/
+  197  ls
+  198  git pull
+  199  ls
+  200  sudo dpkg -i code_1.94.2-1728494015_amd64.deb 
+  201  exit
+  202  sudo apt upgrade
+  203  sudo apt update
+  204  mkdir -p MarcosRocha/SESC/BEL MarcosRocha/SESC/SAN Marcos/SESC/ITA
+  205  ls
+  206  rm Marcos/SESC/ITA
+  207  ls
+  208  rm -rf Marcos/SESC/ITA
+  209  ls
+  210  rm -rf Marcos
+  211  ls
+  212  mkdir -p MarcosRocha/SESC/ITA
+  213  mkdir -p MarcosRocha/SENAI/BRA/Tornearia MarcosRocha/SENAI/BRA/Fresagem MarcosRocha/SENAI/BRA/Soldagem
+  214  cd MarcosRocha/
+  215  ls
+  216  cd SENAI/
+  217  ls
+  218  cd BRA/
+  219  ls
+  220  cd ../ cd ../ cd ../
+  221  cd ../../../
+  222  cd MarcosRocha/SESC/
+  223  ls
+  224  cd ../../
+  225  mkdir -p MarcosRocha/SENAI/GUA/Eletricista MarcosRocha/SENAI/TAT/Drywall MarcosRocha/SENAI/PJS/Empilhadeira
+  226  cd MarcosRocha/SENAI/
+  227  ls
+  228  cd ../../
+  229  echo "Danças Brasileiras\nDanças de Salão" > MarcosRocha/SESC/danca.txt
+  230  echo "Crawl\nPeito\nCostas\nBorboleta" > MarcosRocha/SESC/SAN/natacao.md
+  231  echo "Meia Lua de Frente\nMeia Lua de Compasso\nPisão Rodando" > MarcosRocha/SESC/ITA/capoeira.sh
+  232  echo "Turma A: 01/11 até 30/11" > MarcosRocha/SENAI/BRA/Tornearia/cal_nov_2024.txt
+  233  echo "Turma B: 01/12 até 31/12" > MarcosRocha/SENAI/BRA/Fresagem/cal.dez_2024.txt
+  234  echo "Turma C: 01/01 até 31/01" > MarcosRocha/SENAI/BRA/Soldagem/cal_jan_2025.txt
+  235  echo "Turma A: 01/01 até 31/01" > MarcosRocha/SENAI/GUA/Eletricista/cal_jan_2025.txt
+  236  echo "Turma A: 01/01 até 31/01" > MarcosRocha/SENAI/TAT/Drywall/cal_nov_2024.md
+  237  echo "Turma A: 01/01 até 31/01" > MarcosRocha/SENAI/PJS/Empilhadeira/cal_jan_2025.sh
+  238  ls -R MarcosRocha/
+  239  cd MarcosRocha/SENAI/TAT/
+  240  ls
+  241  cat Drywall/
+  242  cd Drywall/
+  243  ls
+  244  cat cal_nov_2024.md 
+  245  cd ../../../
+  246  cd ..
+  247  cd MarcosRocha/SESC/
+  248  ls
+  249  cat danca.txt 
+  250  cd ../../
+  251  tree -h MarcosRocha/
+  252  echo -e "Meia Lua de Frente\nMeia Lua de Compasso\nPisão Rodando" > MarcosRocha/SESC/ITA/capoeira.sh
+  253  echo -e "Crawl\nPeito\nCostas\nBorboleta" > MarcosRocha/SESC/SAN/natacao.md
+  254  echo -e "Danças Brasileiras\nDanças de Salão" > MarcosRocha/SESC/danca.txt
+  255  cd MarcosRocha/SESC/
+  256  ls]
+  257  ls
+  258  cat danca.txt 
+  259  cd ../../
+  260  history
+  261  sudo apt install tree
+  262  tree -h MarcosRocha/
+  263  ls
+  264  mv SENAC/ MarcosRocha/
+  265  ls
+  266  tree -h
+  267  tree -h MarcosRocha/
+  268  history
+  269  history > comandos.txt
